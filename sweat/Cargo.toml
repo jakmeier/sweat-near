@@ -9,6 +9,6 @@ publish = false
 crate-type = ["cdylib"]
 
 [dependencies]
-near-sdk = "4.0.0-pre.7"
-near-contract-standards = "4.0.0-pre.7"
+near-sdk = {git = "https://github.com/jakmeier/near-sdk-rs", branch = "ft-contract-hashed-lookup-map"}
+near-contract-standards = {git = "https://github.com/jakmeier/near-sdk-rs", branch = "ft-contract-hashed-lookup-map"}
 static_assertions = "1.1.0"
